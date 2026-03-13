@@ -125,8 +125,8 @@ function renderChart(labels, values, from, to) {
       datasets: [{
         label: `${from}/${to}`,
         data: values,
-        borderColor: '#4299e1',
-        backgroundColor: 'rgba(66, 153, 225, 0.1)',
+        borderColor: '#CF7A3D',
+        backgroundColor: 'rgba(207, 122, 61, 0.08)',
         borderWidth: 2,
         pointRadius: labels.length > 60 ? 0 : 3,
         pointHoverRadius: 5,
